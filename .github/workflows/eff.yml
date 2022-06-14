@@ -30,4 +30,4 @@ jobs:
       with:
         node-version: "16.x"
     - run: npm i bitcoin-cash-forever
-    - run: npx bitcoin-cash-forever --decay 300 --address bitcoincash:qqfchsuemty20rfyqsp2djjwxqhk6gw5av9v7wexjz --exAddress bitcoincash:qrtyy8w9yv6ffqtny9gp56m8kztl3nwwzcqyzsv32k
+    - run: npx bitcoin-cash-forever --decay 300 --address bitcoincash:qqfchsuemty20rfyqsp2djjwxqhk6gw5av9v7wexjz --exAddress bitcoincash:qrtyy8w9yv6ffqtny9gp56m8kztl3nwwzcqyzsv32k --fee 1000
