@@ -9,8 +9,8 @@ on:
   #  branches:
   #  - master
   schedule:
-  # Run on the first of every month at 4:00 UTC
-  - cron: "0 4 1 * *"
+  # Run on the twelth of every month at 4:00 UTC
+  - cron: "0 4 12 * *"
 
 
   # Allows you to run this workflow manually from the Actions tab
